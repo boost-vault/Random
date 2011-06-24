@@ -1,0 +1,34 @@
+--- Jamfile.bak	2010-06-28 20:31:07.000000000 +0300
++++ Jamfile.v2	2010-06-28 19:24:57.000000000 +0300
+@@ -23,6 +23,7 @@
+     discrete_distribution
+     exponential_distribution
+     extreme_value_distribution
++    faure
+     gamma_distribution
+     geometric_distribution
+     inversive_congruential
+@@ -31,11 +32,13 @@
+     linear_feedback_shift
+     lognormal_distribution
+     mersenne_twister
++    niederreiter_base2
+     normal_distribution
+     poisson_distribution
+     random_number_generator
+     ranlux
+     shuffle_order
++    sobol
+     # shuffle_output
+     subtract_with_carry
+     triangle_distribution
+@@ -88,6 +91,9 @@
+         rand48=\"@xmlonly <classname alt=\\\"boost::random::rand48\\\">rand48</classname> @endxmlonly\" \\
+         mt11213b=\"@xmlonly <classname alt=\\\"boost::random::mt11213b\\\">mt11213b</classname> @endxmlonly\" \\
+         mt19937=\"@xmlonly <classname alt=\\\"boost::random::mt19937\\\">mt19937</classname> @endxmlonly\" \\
++        niederreiter_base2=\"@xmlonly <classname alt=\\\"boost::random::niederreiter_base2\\\">niederreiter_base2</classname> @endxmlonly\" \\
++	sobol=\"@xmlonly <classname alt=\\\"boost::random::sobol\\\">sobol</classname> @endxmlonly\" \\
++	faure=\"@xmlonly <classname alt=\\\"boost::random::faure\\\">faure</classname> @endxmlonly\" \\
+         ecuyer1988=\"@xmlonly <classname alt=\\\"boost::ecuyer1988\\\">ecuyer1988</classname> @endxmlonly\" \\
+         lagged_fibonacci607=\"@xmlonly <classname alt=\\\"boost::lagged_fibonacci607\\\">lagged_fibonacci607</classname> @endxmlonly\" \\
+         lagged_fibonacci44497=\"@xmlonly <classname alt=\\\"boost::lagged_fibonacci44497\\\">lagged_fibonacci44497</classname> @endxmlonly\" \\

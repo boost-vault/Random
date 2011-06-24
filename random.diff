@@ -1,0 +1,26 @@
+--- random.bak	2010-03-30 21:23:27.000000000 +0300
++++ random.qbk	2010-03-31 18:07:37.000000000 +0300
+@@ -13,12 +13,15 @@
+ [template sup[text]'''<superscript>'''[text]'''</superscript>''']
+ 
+ [template prng[text] [link boost_random.reference.concepts.pseudo_random_number_generator [text]]]
++[template qrng[text] [link boost_random.reference.concepts.quasi_random_number_generator [text]]]
+ [template concepts[text] [link boost_random.reference.concepts [text]]]
+ [template generators[text] [link boost_random.reference.generators [text]]]
+ [template distributions[text] [link boost_random.reference.distributions [text]]]
+ 
+ [def __NumberGenerator [link boost_random.reference.concepts.number_generator NumberGenerator]]
+ [def __UniformRandomNumberGenerator [link boost_random.reference.concepts.uniform_random_number_generator UniformRandomNumberGenerator]]
++[def __PseudoRandomNumberGenerator [link boost_random.reference.concepts.pseudo_random_number_generator PseudoRandomNumberGenerator]]
++[def __QuasiRandomNumberGenerator [link boost_random.reference.concepts.quasi_random_number_generator QuasiRandomNumberGenerator]]
+ 
+ [def __CopyConstructible [@boost:/doc/html/CopyConstructible.html CopyConstructible]]
+ [def __Assignable [@boost:/doc/html/Assignable.html Assignable]]
+@@ -39,6 +42,7 @@
+ [def __hellekalek1995 [classref boost::hellekalek1995 hellekalek1995]]
+ [def __mt11213b [classref boost::mt11213b mt11213b]]
+ [def __mt19937 [classref boost::mt19937 mt19937]]
++[def __niederreiter_base2 [classref boost::random::niederreiter_base2 niederreiter_base2]]
+ [def __lagged_fibonacci607 [classref boost::lagged_fibonacci607 lagged_fibonacci607]]
+ [def __lagged_fibonacci1279 [classref boost::lagged_fibonacci1279 lagged_fibonacci1279]]
+ [def __lagged_fibonacci2281 [classref boost::lagged_fibonacci2281 lagged_fibonacci2281]]
